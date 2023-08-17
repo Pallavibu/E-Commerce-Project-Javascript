@@ -35,6 +35,7 @@ p {
 
 .section-p1 {
   padding: 40px 80px;
+  
 }
 
 .section-m1 {
@@ -625,6 +626,7 @@ footer .copyright {
   }
 
   .section-p1 {
+ 
     padding: 20px;
   }
 
@@ -671,6 +673,8 @@ footer .copyright {
   footer .copyright {
     text-align: start;
   }
+
+
 }
 
 /* Shop Page */
@@ -689,7 +693,7 @@ footer .copyright {
 
 #page-header h2,
 #page-header p{
-  color: rgb(10, 10, 10);
+  color:black;
 }
 
 #pagination{
