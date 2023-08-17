@@ -39,26 +39,147 @@
       </div>
     </section>
 
-   <section id="prodetails" class="section-p1">
-    <div class="single-pro-image">
-        <img src="./Images/girl shirt.jpeg" width="100%" id="Mainimg" alt="">
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img
+          src="./Images/girl shirt.jpeg"
+          height="370rem"
+          width="100%"
+          id="Mainimg"
+          alt=""
+        />
         <div class="small-img-group">
-            <div class="small-img-col">
-                <img src="./Images/girl shirt.jpeg" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="./Images/girl shirt.jpeg" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="./Images/girl shirt.jpeg" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="./Images/girl shirt.jpeg" width="100%" class="small-img" alt="">
-            </div>
-
+          <div class="small-img-col">
+            <img
+              src="./Images/shirt4.jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="./Images/shirt4.jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="./Images/shirt4.jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="./Images/shirt4.jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
         </div>
-    </div>
-   </section>
+      </div>
+      <div class="single-pro-details">
+        <h6>Home/ T-Shirt</h6>
+        <h4>Men's Fashion T-Shirt</h4>
+        <h2>$139.00</h2>
+        <select>
+          <option>select size</option>
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+          <option>XL</option>
+          <option>XXL</option>
+        </select>
+        <input type="number" value="1" />
+        <button class="normal">Add to Cart</button>
+        <h4>Product Details</h4>
+        <span>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+          perferendis vitae in numquam vero ad aperiam molestias autem
+          asperiores sint. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Reprehenderit facere veritatis tempora assumenda, culpa ab autem
+          quis ratione quos provident. Sapiente recusandae quod ducimus eaque
+          velit? Eligendi et ratione impedit.
+        </span>
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="./Images/download (1).jpeg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>T-Shirt T-Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$00</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./Images/girl shirt.jpeg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>T-Shirt T-Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$00</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./Images/download (1).jpeg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>T-Shirt T-Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$00</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="./Images/girl shirt.jpeg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>T-Shirt T-Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$00</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+      </div>
+    </section>
 
     <section id="newsletter" class="section-p1 section-m1">
       <div class="newstext">
@@ -136,6 +257,26 @@
       </div>
     </footer>
 
+    <script>
+      var MainImg = document.getElementById("Mainimg");
+      var samllImg = document.getElementsByClassName("small-img");
+
+      samllImg[0].onclick = () => {
+        MainImg.src = samllImg[0].src;
+      };
+
+      samllImg[1].onclick = () => {
+        MainImg.src = samllImg[1].src;
+      };
+
+      samllImg[2].onclick = () => {
+        MainImg.src = samllImg[2].src;
+      };
+
+      samllImg[3].onclick = () => {
+        MainImg.src = samllImg[3].src;
+      };
+    </script>
     <script src="./script.js"></script>
   </body>
 </html>
