@@ -864,13 +864,61 @@ footer .copyright {
     align-items: flex-start;
   }
 
-  #blog .blog-img{
+  #blog .blog-img {
     width: 100%;
     margin-right: 0px;
     margin-bottom: 30px;
   }
 
-  #blog .blog-details{
+  #blog .blog-details {
     width: 100%;
   }
+
+  #about-head {
+    flex-direction: column;
+  }
+
+  #about-head img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div{
+    padding-left: 0px;
+  }
+
+  #about-app .video{
+    width: 100%;
+  }
+}
+
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head div {
+  padding-left: 40px;
+}
+
+#about-head img {
+  height: auto;
+  width: 50%;
+}
+
+#about-app {
+  text-align: center;
+}
+
+#about-app .video {
+  width: 70%;
+  margin: 30px auto 0 auto;
+  height: 100%;
+}
+
+#about-app .video video {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid black;
 }
