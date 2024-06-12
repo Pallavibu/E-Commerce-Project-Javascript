@@ -524,8 +524,8 @@ footer .copyright {
     width: 300px;
     top: 0;
     right: -300px;
-    background-color: rgb(245, 244, 239);
-    border: 0 40px 60px rgba(183, 91, 91, 0.3);
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
     transition: 0.3s;
   }
@@ -773,8 +773,6 @@ footer .copyright {
   z-index: -9;
 }
 
-
-
 #about-head {
   display: flex;
   align-items: center;
@@ -972,7 +970,7 @@ footer .copyright {
   }
 
   #hero {
-    height: 80vh;
+    height: 70vh;
     padding: 0 80px;
     background-position: top 30% right 30%;
   }
@@ -990,7 +988,7 @@ footer .copyright {
   }
 
   #product1.pro {
-    margin: 15px 0;
+    margin: 15px ;
   }
 
   #banner {
@@ -1133,26 +1131,26 @@ footer .copyright {
     width: 100%;
   }
 
-  #contact-details{
+  #contact-details {
     flex-direction: column;
   }
 
-  #contact-details .details{
+  #contact-details .details {
     width: 100%;
     margin-bottom: 30px;
   }
 
-  #contact-details .map{
+  #contact-details .map {
     width: 100%;
   }
 
-  .form-details{
+  .form-details {
     margin: 10px;
     padding: 30px 10px;
     flex-wrap: wrap;
   }
 
-  .form-details form{
+  .form-details form {
     width: 100%;
     margin-bottom: 30px;
   }
